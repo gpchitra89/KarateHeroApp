@@ -1,4 +1,4 @@
-Feature:HerokuApp - Read
+Feature:HerokuApp - Delete
 
  Background: consume service
     * url 'https://restful-booker.herokuapp.com/'
