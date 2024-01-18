@@ -1,5 +1,5 @@
 
-Feature:HerokuApp - Create
+Feature:HerokuApp - Create Booking
 
   Background: consume service
     * url 'https://restful-booker.herokuapp.com/'

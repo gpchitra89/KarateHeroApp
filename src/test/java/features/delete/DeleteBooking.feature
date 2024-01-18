@@ -1,11 +1,11 @@
-Feature:HerokuApp - Delete
+Feature:HerokuApp - Delete call
 
  Background: consume service
     * url 'https://restful-booker.herokuapp.com/'
     * def authToken = call read('classpath:features/token/createToken.feature@CreateToken')
     * def create = call read('classpath:features/create/createBooking.feature@Create')
 
-  Scenario: Update restful booker herokuapp
+  Scenario: Delete restful booker herokuapp
 
     Given path 'booking/'
     And path create.id
