@@ -1,4 +1,4 @@
-Feature:HerokuApp - Delete call API test
+Feature:HerokuApp - Delete call API
 
  Background: consume service
     * url 'https://restful-booker.herokuapp.com/'
